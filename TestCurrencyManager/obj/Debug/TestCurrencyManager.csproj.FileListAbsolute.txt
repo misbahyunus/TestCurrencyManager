@@ -1,0 +1,1 @@
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\TestCurrencyManager.exe.config
