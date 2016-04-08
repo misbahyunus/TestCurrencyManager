@@ -1,1 +1,16 @@
 E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\TestCurrencyManager.exe.config
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\TestCurrencyManager.exe
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\TestCurrencyManager.pdb
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\EntityFramework.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\EntityFramework.SqlServer.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\Newtonsoft.Json.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\System.Data.SQLite.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\EntityFramework.xml
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\EntityFramework.SqlServer.xml
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\Newtonsoft.Json.xml
+E:\Projects\TestCurrencyManager\TestCurrencyManager\bin\Debug\System.Data.SQLite.xml
+E:\Projects\TestCurrencyManager\TestCurrencyManager\obj\Debug\TestCurrencyManager.csprojResolveAssemblyReference.cache
+E:\Projects\TestCurrencyManager\TestCurrencyManager\obj\Debug\TestCurrencyManager.exe
+E:\Projects\TestCurrencyManager\TestCurrencyManager\obj\Debug\TestCurrencyManager.pdb
