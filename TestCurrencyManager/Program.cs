@@ -40,13 +40,18 @@ namespace TestCurrencyManager
                         InsertBaseCurrency(connString, currencyLookup, input);
                         InsertCurrency(connString, currencyLookup, input);
                     }
+                    else
+                    {
+                        // Fetch latest currency rates
+                        UpdateCurrencyRate(connString, input);
+                    }
                 }
 
                 DisplayCurrenyRate(connString, input);
             }
 
             Console.WriteLine();
-            Console.WriteLine("Thank you for using out service.");
+            Console.WriteLine("Thank you for using our service.");
             Console.ReadLine();
         }
 
@@ -211,6 +216,7 @@ namespace TestCurrencyManager
                                 string description = reader.GetString(1);
                                 string currency = description + "(" + code + ")";
                                 decimal rate = reader.GetDecimal(2);
+                                // Do not display base rate in the list
                                 if(code == paraBaseCurrency) { continue; }
                                 Console.WriteLine("       = {0} {1}", rate, currency);
                             }
