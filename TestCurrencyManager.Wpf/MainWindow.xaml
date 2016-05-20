@@ -1,0 +1,47 @@
+﻿<Window x:Class="TestCurrencyManager.Wpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestCurrencyManager.Wpf"
+        mc:Ignorable="d"
+        Title="Welcome" Height="400" Width="525">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom">
+            <StatusBarItem>
+                <TextBlock Name="lblCursorPosition" Text="Copyright@M Yun"/>
+            </StatusBarItem>
+        </StatusBar>
+    <Grid>        
+        <StackPanel Orientation="Vertical">            
+            <Label Name="lblHeader" Background="Maroon" Height="50" FontSize="28" Foreground="AntiqueWhite" HorizontalContentAlignment="Center" FontFamily="Segoe UI Semibold">Currency Manager</Label>
+            <StackPanel Orientation="Horizontal" Margin="10,10,10,0">
+                <Label Name="lblCurrency">Enter Currency:</Label>
+                <ComboBox Name="cbCurrency" Width="200"></ComboBox>
+                <Button Name="btnGo" Width="40" Margin="20,0,0,0" Click="btnGo_Click">GO</Button>
+                <Button Name="btnClose" Width="40" Margin="90,0,0,0" Click="btnClose_Click">CLOSE</Button>
+            </StackPanel>
+            <TextBlock Name="txtblkResult" Margin="15,20,10,0">Choose option above to view latest exchange rates.</TextBlock>
+        </StackPanel>
+        <Grid Margin="5,140,5,10">
+            <ListView Margin="10" Name="lvDataBinding">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <WrapPanel>
+                            <TextBlock Text="= " />
+                            <TextBlock Text="{Binding Rate}" FontWeight="Bold" />
+                            <TextBlock Text=" " />
+                            <TextBlock Text="{Binding Currency}" FontWeight="Bold" />
+                        </WrapPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                <ListBox.ItemContainerStyle>
+                    <Style TargetType="{x:Type ListBoxItem}">
+                        <Setter Property="Background" Value="Lavender"/>
+                    </Style>
+                </ListBox.ItemContainerStyle>
+            </ListView>
+        </Grid>        
+    </Grid>
+    </DockPanel>
+</Window>
