@@ -32,7 +32,9 @@
                             <TextBlock Text="{Binding Rate}" FontWeight="Bold" />
                             <TextBlock Text=" " />
                             <TextBlock Text="{Binding Currency}" FontWeight="Bold" />
-                        </WrapPanel>
+                            <TextBlock Text=" " />
+                            <Image Source = "{Binding ImagePath}" Height="20" />
+                            </WrapPanel>
                     </DataTemplate>
                 </ListView.ItemTemplate>
                 <ListBox.ItemContainerStyle>

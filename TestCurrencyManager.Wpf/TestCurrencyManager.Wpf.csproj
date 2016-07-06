@@ -64,6 +64,7 @@
       <HintPath>..\packages\System.Data.SQLite.Linq.1.0.101.0\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Xml" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Core" />
@@ -124,6 +125,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Icons\AUD.png" />
+    <Resource Include="Icons\CAD.png" />
+    <Resource Include="Icons\CNY.png" />
+    <Resource Include="Icons\EUR.png" />
+    <Resource Include="Icons\GBP.png" />
+    <Resource Include="Icons\HKD.png" />
+    <Resource Include="Icons\IDR.png" />
+    <Resource Include="Icons\INR.png" />
+    <Resource Include="Icons\JPY.png" />
+    <Resource Include="Icons\MYR.png" />
+    <Resource Include="Icons\NZD.png" />
+    <Resource Include="Icons\SGD.png" />
+    <Resource Include="Icons\USD.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="..\packages\System.Data.SQLite.Core.1.0.101.0\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('..\packages\System.Data.SQLite.Core.1.0.101.0\build\net46\System.Data.SQLite.Core.targets')" />

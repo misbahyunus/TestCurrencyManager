@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Data.SQLite;
 using System.IO;
 using System.Linq;
@@ -160,9 +161,9 @@ namespace TestCurrencyManager.Wpf
         /// <param name="paraDict">Lookup dictionary containing currency code and description</param>
         private void InsertCurrency(string connString, Dictionary<string, string> paraDict, string paraBaseCurrency)
         {
-            //Console.WriteLine("Begin InsertCurrency");
-
+            // Form URL to fetch exchange rates from
             var url = "https://api.fixer.io/latest?base=" + paraBaseCurrency;
+            // Fetch the data and store it into a variable
             var currencyRates = FetchJson._download_serialized_json_data<Currency>(url);
 
             using (var factory = new SQLiteFactory())
@@ -206,7 +207,6 @@ namespace TestCurrencyManager.Wpf
                     if (dbConn.State != System.Data.ConnectionState.Closed) dbConn.Close();
                 }
             }
-            //Console.WriteLine("End InsertCurrency");
         }
 
         /// <summary>
@@ -354,11 +354,12 @@ namespace TestCurrencyManager.Wpf
                             {
                                 string code = reader.GetString(0);
                                 string description = reader.GetString(1);
-                                string currencyInfo = description + "(" + code + ")";
+                                string currencyInfo = description;
                                 decimal currencyRate = reader.GetDecimal(2);
+                                string imagePath = "/Icons/" + code + ".png";
                                 // Do not display base rate in the list
                                 if (code == paraBaseCurrency) { continue; }
-                                list.Add(new ExchangeRate() { Rate = currencyRate, Currency = currencyInfo });
+                                list.Add(new ExchangeRate() { Rate = currencyRate, Currency = currencyInfo, ImagePath = imagePath });
                             }
                         }
                         cmd.Dispose();
@@ -379,6 +380,7 @@ namespace TestCurrencyManager.Wpf
         {
             Dictionary<string, string> temp = new Dictionary<string, string>();
             temp.Add("XYZ", "Please Select Base Currency");
+            temp.Add("AUD", "(AUD) Australian Dollar");
             temp.Add("USD", "(USD) US Dollar");
             temp.Add("GBP", "(GBP) British Pound");
             temp.Add("NZD", "(NZD) New Zealand Dollar");
@@ -391,11 +393,9 @@ namespace TestCurrencyManager.Wpf
             temp.Add("IDR", "(IDR) Indonesian Rupiah");
             temp.Add("MYR", "(MYR) Malaysian Ringgit");
             temp.Add("SGD", "(SGD) Singapore Dollar");
-            temp.Add("AUD", "(AUD) Australian Dollar");
 
             return temp;
-        }
-                
+        }                
     }
     #endregion
 
@@ -403,5 +403,6 @@ namespace TestCurrencyManager.Wpf
     {
         public decimal Rate { get; set; }
         public string Currency { get; set; }
+        public string ImagePath { get; set; }
     }
 }
