@@ -53,7 +53,7 @@ namespace TestCurrencyManager.Wpf
 
         #region Methods
         /// <summary>
-        /// Fetches and displays the latest exchnage rates for selected base currency
+        /// Fetches and displays the latest exchange rates for selected base currency
         /// </summary>
         private void btnGo_Click(object sender, RoutedEventArgs e)
         {
@@ -367,7 +367,7 @@ namespace TestCurrencyManager.Wpf
                     if (dbConn.State != System.Data.ConnectionState.Closed) dbConn.Close();
                 }
             }
-            // Set listview source to latest list of exchnage rates
+            // Set listview source to latest list of exchange rates
             lvDataBinding.ItemsSource = list;
         }
         #endregion
