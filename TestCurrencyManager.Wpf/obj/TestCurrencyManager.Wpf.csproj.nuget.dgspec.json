@@ -1,0 +1,86 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj": {}
+  },
+  "projects": {
+    "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj",
+        "projectName": "TestCurrencyManager.Wpf",
+        "projectPath": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj",
+        "packagesPath": "C:\\Users\\mohdm\\.nuget\\packages\\",
+        "outputPath": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "UsingMicrosoftNETSdk": false,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\mohdm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.5.1, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.4, )"
+            },
+            "System.Data.SQLite.Core": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            },
+            "System.Data.SQLite.EF6": {
+              "target": "Package",
+              "version": "[2.0.2, )"
+            },
+            "System.Data.SQLite.Linq": {
+              "target": "Package",
+              "version": "[1.0.119, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

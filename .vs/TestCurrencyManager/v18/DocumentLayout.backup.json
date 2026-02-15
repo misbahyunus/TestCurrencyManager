@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\Repo\\TestCurrencyManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|e:\\projects\\repo\\testcurrencymanager\\testcurrencymanager.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|solutionrelative:testcurrencymanager.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "ToolTip": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "RelativeToolTip": "TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T23:39:17.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

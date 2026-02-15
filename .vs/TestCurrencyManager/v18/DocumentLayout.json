@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\Repo\\TestCurrencyManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|e:\\projects\\repo\\testcurrencymanager\\testcurrencymanager.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|solutionrelative:testcurrencymanager.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21A8EF66-CEE0-4A92-B379-E82C8DB8A5E5}|TestCurrencyManager\\TestCurrencyManager.csproj|e:\\projects\\repo\\testcurrencymanager\\testcurrencymanager\\model\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21A8EF66-CEE0-4A92-B379-E82C8DB8A5E5}|TestCurrencyManager\\TestCurrencyManager.csproj|solutionrelative:testcurrencymanager\\model\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|e:\\projects\\repo\\testcurrencymanager\\testcurrencymanager.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{46934C11-59EB-451A-B718-5FB529978245}|TestCurrencyManager.Wpf\\TestCurrencyManager.Wpf.csproj|solutionrelative:testcurrencymanager.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "TestCurrencyManager.Wpf\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml.cs",
+              "RelativeToolTip": "TestCurrencyManager.Wpf\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAAAKEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T23:40:28.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Currency.cs",
+              "DocumentMoniker": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager\\Model\\Currency.cs",
+              "RelativeDocumentMoniker": "TestCurrencyManager\\Model\\Currency.cs",
+              "ToolTip": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager\\Model\\Currency.cs",
+              "RelativeToolTip": "TestCurrencyManager\\Model\\Currency.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-12T23:43:42.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "ToolTip": "E:\\Projects\\Repo\\TestCurrencyManager\\TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "RelativeToolTip": "TestCurrencyManager.Wpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-12T23:39:17.192Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
